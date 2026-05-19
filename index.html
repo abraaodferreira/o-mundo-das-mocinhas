@@ -3,9 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>O Mundo das mocinhas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <!--Barra Superior-->
+        <div class="top-bar">
+            <p>✨Bem-vinda ao Mundo das Mocinhas✨</p>
+            <p>🛵Entregas rápidas em Luanda</p>
+            <p>🎁5% OFF na primeira compra</p>
+        </div>
+
+        <!--cabeçalho principal-->
+        <div class="header-principal">
+
+            <!--logo-->
+            <div class="logo">
+                <img src="img/logo mocinhas.png" alt="">
+            </div>
+
+            <!--Botão hamburguer-->
+
+            <button class="hamburguer">
+                    ☰
+            </button>
+
+            <!--menu-->
+            <nav>
+                <ul class="menu">
+                    <li><a href="">Novidades</a></li>
+                    <li><a href="">Beleza</a></li>
+                    <li><a href="">Acessórios</a></li>
+                    <li><a href="">Cosméticos</a></li>
+                    <li><a href="">MocinhasClub</a></li>
+                    <li><a href="">Trends</a></li>
+                </ul>
+            </nav>
+
+            <!--Ícones-->
+             <div class="icones">
+                     <a href="#">🔍</a>
+                     <a href="#">👤</a>
+                    <a href="#">🛒</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="fotoslide">
+            <img src="img/banner.png" alt="">
+        </div>
+        <section class="produtos">
+            <article class="produto">
+                <img src="img/Perfume feminino_.jpg" alt="">
+                <p>Perfume Obeessed</p>
+            </article>
+
+            <article class="produto">
+                <img src="img/Perfume feminino_.jpg" alt="">
+                <p>Perfume Obeessed</p>
+            </article>
+
+            <article class="produto">
+                <img src="img/Perfume feminino_.jpg" alt="">
+                <p>Perfume Obeessed</p>
+            </article>
+
+            <article class="produto">
+                <img src="img/Perfume feminino_.jpg" alt="">
+                <p>Perfume Obeessed</p>
+            </article>
+
+            
+
+            <article class="produto">
+                <img src="img/Perfume feminino_.jpg" alt="">
+                <p>Perfume Obeessed</p>
+            </article>
+
+            <article class="produto">
+                <img src="img/Perfume feminino_.jpg" alt="">
+                <p>Perfume Obeessed</p>
+            </article>
+
+            <article class="produto">
+                <img src="img/Perfume feminino_.jpg" alt="">
+                <p>Perfume Obeessed</p>
+            </article>
+
+             <article class="produto">
+                <img src="img/Perfume feminino_.jpg" alt="">
+                <p>Perfume Obeessed</p>
+            </article>
+
+        </section>
+
+               <section class="produtos">
+            <article class="produto">
+                <img src="img/Perfume feminino_.jpg" alt="">
+                <p>Perfume Obeessed</p>
+            </article>
+
+            <article class="produto">
+                <img src="img/Perfume feminino_.jpg" alt="">
+                <p>Perfume Obeessed</p>
+            </article>
+
+            <article class="produto">
+                <img src="img/Perfume feminino_.jpg" alt="">
+                <p>Perfume Obeessed</p>
+            </article>
+
+            <article class="produto">
+                <img src="img/Perfume feminino_.jpg" alt="">
+                <p>Perfume Obeessed</p>
+            </article>
+
+            <article class="produto">
+                <img src="img/Perfume feminino_.jpg" alt="">
+                <p>Perfume Obeessed</p>
+            </article>
+
+             <article class="produto">
+                <img src="img/Perfume feminino_.jpg" alt="">
+                <p>Perfume Obeessed</p>
+            </article>
+
+        </section>
+
+               <section class="produtos">
+            <article class="produto">
+                <img src="img/Perfume feminino_.jpg" alt="">
+                <p>Perfume Obeessed</p>
+            </article>
+
+            <article class="produto">
+                <img src="img/Perfume feminino_.jpg" alt="">
+                <p>Perfume Obeessed</p>
+            </article>
+
+            <article class="produto">
+                <img src="img/Perfume feminino_.jpg" alt="">
+                <p>Perfume Obeessed</p>
+            </article>
+
+            <article class="produto">
+                <img src="img/Perfume feminino_.jpg" alt="">
+                <p>Perfume Obeessed</p>
+            </article>
+
+            <article class="produto">
+                <img src="img/Perfume feminino_.jpg" alt="">
+                <p>Perfume Obeessed</p>
+            </article>
+
+             <article class="produto">
+                <img src="img/Perfume feminino_.jpg" alt="">
+                <p>Perfume Obeessed</p>
+            </article>
+
+        </section>
+
+    </main>
+
+    <nav class="paginacao">
+        <a href=""> >> </a>
+    </nav>
+
+    <script>
+    const btn = document.querySelector('.hamburguer');
+    const menu = document.querySelector('.menu');
+
+    btn.addEventListener('click', () => {
+        menu.classList.toggle('ativo');
+    });
+    document.addEventListener('click', (e) => {
+    if (!menu.contains(e.target) && !btn.contains(e.target)) {
+        menu.classList.remove('ativo');
+    }
+});
+</script>
+
 </body>
 </html>
