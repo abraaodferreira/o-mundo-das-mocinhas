@@ -166,7 +166,6 @@ body{
     width: 120px;
     max-width: 100%;
     transition: 0.5s;
-    margin-left: -50px;
 }
 
 .logo > img:hover{
@@ -335,6 +334,10 @@ body{
 
     .produtos > article{
         width: 45%;
+    }
+
+    .logo{
+        margin-left: -50px;
     }
 }
 
